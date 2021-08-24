@@ -1,6 +1,6 @@
 def generate_permutations(s, perm=[], ans=None):
     if ans:
-        continue
+        return
     n = len(s)
     if len(perm) == n and s[perm[-1]] != s[-1]:
         ans = "".join([s[i] for i in perm])
