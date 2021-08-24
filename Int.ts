@@ -16,7 +16,7 @@ export default class Int {
             throw new Error("Number must be a non-negative integer");
         }
         let total = 1;
-        for (let i = 1; i <= n; i++) {
+        for (let i = 2; i <= n; i++) {
             total *= i;
         }
         return total;
